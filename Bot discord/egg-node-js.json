@@ -7,7 +7,7 @@
     "name": "Node.js",
     "author": "support@adkynet.com",
     "description": "Node.js",
-    "image": "quay.io\/parkervcp\/pterodactyl-images:debian_nodejs-12",
+    "image": "quay.io\/parkervcp\/pterodactyl-images:debian_nodejs-14",
     "startup": "npm i > \/dev\/null 2>&1 && node {{SCRIPT}}",
     "config": {
         "files": "{}",
